@@ -1,0 +1,35 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color:#171111;
+        --body-color:#f8efef;
+        --link-color:#f8efef;
+        --heading-color:#FFF5F5;
+        --tag-color:#1f2021;
+        --tag-private-color:#292424;
+        --gallery-background:rgba(255,255,255,0.05);
+        --background-shade1:rgba(255,255,255,0.03);
+        --background-shade2:rgba(255,255,255,0.05);
+      }
+      svg {
+          fill:var(--link-color)
+      }
+      .icon{
+        filter: invert(27%) sepia(51%) saturate(100%) brightness(314%) contrast(97%);
+      }
+      .experience ul.tag li {
+        color: rgb(255 255 255 / 67%);
+    }
+    nav ul li{
+        filter: invert(27%) sepia(51%) saturate(100%) brightness(314%) contrast(97%);
+    }
+    .company .logo{
+      filter: brightness(0) invert(1);
+    }
+
+    .gallery .dark {
+      display: block;
+    }
+    .gallery .light {
+      display: none;
+    }
+}

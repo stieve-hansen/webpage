@@ -1,0 +1,85 @@
+body{
+    background-image: url(images/christmas-pattern-background_1265-186.jpg);
+    background-color: #B7344A;
+    font-family: sans-serif;
+    padding: 0;
+    margin:0;
+    color: white;
+}
+body.open{background-image:none;}
+
+.open-gift{
+    background-color: #3A8345;
+    border-radius: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:xx-large;
+    padding: 24px 52px;
+    text-decoration: none;
+    box-shadow: 0px 0px 30px black;
+}
+
+a {color: antiquewhite;}
+
+.tie{
+    background-color: #3A8345;
+    position: fixed;
+}
+
+.v-tie{
+    height: 100%;
+    width: 40px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.h-tie{
+    width: 100%;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+section{
+    display: flex;
+    width: 100vw;
+    width: calc(100vw - 64px);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+h1{text-align: center;}
+
+.clue{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.clue h2{
+    background-color: #B7344A;
+    border-radius: 100px;
+    padding: 16px 32px;
+}
+
+.clue.one{
+    background-image: url("https://resources.mynewsdesk.com/image/upload/c_limit,dpr_2.625,f_auto,h_700,q_auto,w_360/obcjddcvi48rcez9oanw.jpg");
+}
+.clue.two{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/River_B%C3%B8vra_in_Lom.JPG");
+}
+
+.clue.three{
+    background-image: url("https://150kroner.no/wp-content/uploads/2018/06/IMG_1717-1-e1529314921257.png");
+}
+
+.clue.four{
+    background-image: url("https://smile.cebupacificair.com/wp-content/uploads/2019/05/Oscar-Isaac-_-FACEBOOK.jpg");
+}
+
+.clue.five{
+    background-image: url("https://us.hola.com/imagenes/celebrities/2016090219521/michael-fassbender-moment-fell-in-love-alicia-vikander/0-141-502/featured_5_3-t.jpg");
+}
